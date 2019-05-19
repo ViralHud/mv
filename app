@@ -1,1 +1,1 @@
-http://yourjavascript.com/15184499133/app.js|30
+file:///android_asset/www/app.js|30
