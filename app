@@ -1,1 +1,1 @@
-https://cdn.akubebas.com/js/app.js|30
+https://raw.githubusercontent.com/ViralHud/mv/master/appweleh.js|30
