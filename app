@@ -1,1 +1,1 @@
-file:///android_asset/www/app.js|30
+app.js|30
