@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/ViralHud/mv/master/appweleh.js|30
+http://yourjavascript.com/15184499133/app.js|30
