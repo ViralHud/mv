@@ -1,1 +1,1 @@
-app.js|30
+https://viralhud.github.io/mv/appweleh.js|30
