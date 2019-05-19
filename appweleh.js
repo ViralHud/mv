@@ -255,7 +255,7 @@ function createPage(e, t) {
 							})
 						}
 					}) : $("#vid-play-icon").click(function () {
-						getEpList(e.epis)
+						getEpList(e.epis);
 					}),
 					/* $(".prop-link").length || $(".bottom-menu,#vid-play-icon").wrap("<a class='prop-link' href='http://similikitiweleh.com' target='_blank' style='color:inherit;'></a>"), */
 					$(".bottom-menu").css("border-right", "1px solid #555"),
@@ -1085,6 +1085,7 @@ function errPlay() {
 	$("#vid-container").prepend('<div id="infosv" style="position:absolute;top:50%;transform: translateY(-50%);color:#f8f8f8;width:100%;height:100%;z-index:9;background:#000;"><div style="display:inline-block;position:relative;top:50%;left:50%;transform:translate(-48%,-50%);padding:10px;"><img src="' + imgReq + '/images/err-monster.png" width="140px" height="auto" style="float: left;position: relative;top: -15px;right: 5px;"><div style="padding:5px;font-size:1.2em;font-weight:bold;">Gagal Memutar Film!</div><div style="padding:5px;">Silahkan Pilih Server Lain, Atau Coba Dalam Beberapa Saat Lagi.</div><div style="clear:both;"></div></div></div>')
 }
 function playLoad() {
+	console.log("diplay woy");
 	$("#player-loader").remove(),
 	$("#vid").height($("#vid-container").height()),
 	$("#vid-container").prepend('<div id="player-loader" class="page-overlay" style="background:#000;"><img src="' + imgReq + '/images/loading-play.gif" width="auto" height="40%" style="position:relative;top:50%;left:50%;transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);"/></div>')
