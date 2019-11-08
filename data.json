@@ -1,6 +1,6 @@
 {
-		"ads": true,
-		"online": true,
+		"ads": false,
+		"online": false,
 		"update": false,
 		"version": "1234",
 		"url": "https://urlapk.com",
